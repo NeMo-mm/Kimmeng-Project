@@ -109,6 +109,7 @@
             height: 50px;
             object-fit: cover;
             border-radius: 7px;
+         color:white;
             
         }
 
@@ -118,6 +119,7 @@
             display: block;
             margin-top:none;
             float: left;
+         color:white;
             
         }
 
@@ -148,6 +150,7 @@
             background-color: rgba(26, 42, 122, 0.9);
 
         }
+
 
 
 
