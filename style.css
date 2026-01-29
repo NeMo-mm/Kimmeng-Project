@@ -7,7 +7,7 @@
 
         body {
    font-family:'Times New Roman',serif;
-         background-image: url('bbubg.jpg') no-repeat center center fixed;
+         background-image: url('bbubg.jpg');
          background-size:cover;
          min-height:100vh;
          margin:0;
@@ -155,6 +155,7 @@ html{
             background-color: rgba(26, 42, 122, 0.9);
 
         }
+
 
 
 
