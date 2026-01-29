@@ -6,22 +6,14 @@
         }
 
         body {
-    /* ដាក់រូបភាព Background */
-    background-image: url('bbubg.jpg'); /* ប្តូរឈ្មោះរូបភាពឲ្យត្រូវតាម File របស់អ្នក */
-    
-    /* កំណត់ឲ្យរូបភាពនៅនឹងថ្កល់ មិនរំកិលចុះក្រោមតាម Content */
-    background-attachment: fixed;
-    
-    /* កំណត់កម្ពស់យ៉ាងតិចបំផុតឲ្យស្មើនឹងអេក្រង់ */
-    min-height: 100vh;
-    
-    /* កំណត់ឲ្យរូបភាពរីកពេញអេក្រង់ និងមិនបង្ហាញជាន់គ្នា */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    margin: 0;
-    font-family: Arial, sans-serif;
+   font-family:'Times New Roman',serif;
+         background-image: url('bbubg.jpg');
+         background-attachment:fixed;
+         background-size:cover;
+         background-repeat:no-repeat;
+         backgground-position:center;
+         margin:0;
+         min-height:100vh;
 }
 
         /* Header */
@@ -156,6 +148,7 @@
             background-color: rgba(26, 42, 122, 0.9);
 
         }
+
 
 
 
