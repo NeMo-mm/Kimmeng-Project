@@ -7,14 +7,11 @@
 
         body {
             font-family: 'Times New Roman', serif;
-            background-image: url('bbubg.jpg');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            background-repeat:no-repeat;
-         background-attachment:fixed;
+            background-image: url('bbubg.jpg') no-repeat center fixed;
+            background-size: cover ! important;
+         min-height:100vh;
          margin:0;
-         padding:0;
+           
         }
 
         /* Header */
@@ -149,4 +146,5 @@
             background-color: rgba(26, 42, 122, 0.9);
 
         }
+
 
