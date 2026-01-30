@@ -22,7 +22,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 30px;
+            padding: 30px 40px;
             background-color: #1A2A7A;
         }
 
@@ -155,6 +155,7 @@
  .center{
             text-align: center;
         }
+
 
 
 
