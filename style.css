@@ -13,10 +13,8 @@
          background-repeat:no-repeat;
          background-position:center;
          margin:0;
-         
+       
 }
-
- 
 
         /* Header */
         header {
@@ -25,6 +23,7 @@
             align-items: center;
             padding: 30px 40px;
             background-color: #1A2A7A;
+            
         }
 
         .brand {
@@ -81,9 +80,10 @@
         }
 
         /* Form */
-        .fm {
-    width: 350px;
-    height: auto;
+        .fm { 
+                
+    width: 620px;
+    height: 500px;
     margin: 50px auto;
     padding: 15px;
     background-color: rgba(26, 42, 122, 0.9);
@@ -91,15 +91,15 @@
     text-align: center;
     box-shadow: 0 8px 20px rgba(0,0,0,0.5); /* shadow effect */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-         color:white;
-         background-image: url('background.jpg');
+    color:white;
+    background-image: url('background.jpg');
          background-attachment:fixed;
          background-size:cover;
          background-repeat:no-repeat;
          background-position:center;
-         margin:0;
     
  }
+
         .fm:hover {
     transform: translateY(-5px) scale(1.02); /* slightly lift on hover */
     box-shadow: 0 12px 30px rgba(0,0,0,0.7); /* stronger shadow on hover */
@@ -111,7 +111,7 @@
         .fm h2 {
             margin-bottom: 15px;
             text-decoration: underline;
-         color:white;
+         
         }
 
         .fm img {
@@ -156,26 +156,22 @@
             color: white;
             text-align: center;
             padding: 10px;
-            margin-top: auto;
-            background-color: rgba(26, 42, 122, 0.9);        
-      }
- .center{
-            text-align: center;
+            margin-top: 30px;
+            background-color: rgba(26, 42, 122, 0.9);
+
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .center{
+            margin-top:50px;
+            text-align: center;
+            background-color:white;
+            padding-top: 45px;
+            background-image: url('background.jpg');
+         background-attachment:fixed;
+         background-size:cover;
+         background-repeat:no-repeat;
+         background-position:center;
+            
+        }
 
 
 
