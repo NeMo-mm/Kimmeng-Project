@@ -152,12 +152,12 @@ html{
             text-align: center;
             padding: 10px;
             margin-top: auto;
-            background-color: rgba(26, 42, 122, 0.9);
-
-        
+            background-color: rgba(26, 42, 122, 0.9);        
       }
-.center{
- text-align:center;
+ .center{
+            text-align: center;
+        }
+
 
 
 
