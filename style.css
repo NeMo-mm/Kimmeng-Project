@@ -108,10 +108,10 @@
         }
 
         .fm img {
-            width: 40px;
-            height: 50px;
+            width: 70px;
+            height: 90px;
             object-fit: cover;
-            border-radius: 7px;
+            border-radius: 20px;
         
             
         }
@@ -155,6 +155,7 @@
  .center{
             text-align: center;
         }
+
 
 
 
