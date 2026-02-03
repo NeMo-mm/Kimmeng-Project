@@ -2,62 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | BBU</title>
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
-   <header>
+<header>
     <div class="brand">
         <img class="logo" src="logo.jpg" alt="BBU Logo">
         <div class="title">
-            <h1 style="font-family: 'Times New Roman' sans-serif;">Build Bright University</h1>
-            <h2 style="font-family: 'khmer muol';">សាកលវិទ្យាល័យបៀលប្រាយ</h2>
+            <h1>Build Bright University</h1>
+            <h2 class="khmer-muol">សាកលវិទ្យាល័យបៀលប្រាយ</h2>
         </div>
     </div>
 
     <nav>
         <ul class="nav_links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
 
-    <div class="container">
-        <div class="contact-box">
-            <h2>All About Contact</h2>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Contact Us</h1>
+        <p>We are here to help and answer any questions you might have.</p>
+    </div>
+</section>
 
-            <div class="contact-item">
-                <span></span>
-                <a href="https://www.facebook.com/share/1C2ioJEqfR/?mibextid=wwXIfr" target="_blank">
-                    Facebook: Kinh Kimmeng
-                </a>
+<div class="main-container">
+    <div class="contact-card animate-up">
+        <h2 class="card-title">Contact Info</h2>
+        <hr>
+        <div class="info-list">
+            <div class="info-item">
+                <div class="icon-box">📍</div>
+                <div>
+                    <strong>Our Campus</strong>
+                    <p>Banteay Meanchey  Campus, Cambodia</p>
+                </div>
             </div>
-
-            <div class="contact-item">
-                <span></span>
-                <a href="https://t.me/Kinhkimmeng" target="_blank">
-                    Telegram: @ Kinh Kimmeng
-                </a>
+            <div class="info-item">
+                <div class="icon-box">📞</div>
+                <div>
+                    <strong>Call Us</strong>
+                    <p style="color: white;">+855 081230014</p>
+                </div>
             </div>
-
-            <div class="contact-item">
-                <span></span>
-                
-                    Phone: +855 081230014
-                </a>
+            <div class="info-item">
+                <div class="icon-box">📧</div>
+                <div>
+                    <strong>Email Support</strong>
+                    <p>kinhkimmeng@gmail.com</p>
+                </div>
             </div>
-
         </div>
+
+        <p class="social-label">Connect with me:</p>
+        <a href="https://www.facebook.com/share/1C2ioJEqfR/?mibextid=wwXIfr" class="btn facebook">Facebook</a>
+        <a href="https://t.me/Kinhkimmeng" class="btn telegram">Telegram</a>
     </div>
 
-    <footer>
-        <p>&copy; 2026 Contact Page | About contact.</p>
-    </footer>
+    <div class="form-container animate-up" style="animation-delay: 0.2s;">
+        <h2>Send us a Message</h2>
+        <form>
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" placeholder="Your first name">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Your last name">
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="example@mail.com">
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea placeholder="Write your message here..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Message</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 BBU | Build Bright University - Contact Us Page</p>
+</footer>
 
 </body>
 </html>
-
-
